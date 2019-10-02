@@ -72,5 +72,5 @@ public abstract class Animal {
 		return ("Animal "+this.getId()+" : \n Nom : "+this.getNom()+"\n Age : "+this.getAge()+"\n Poid : "+this.getPoid()+"\n Speed : "+this.getSpeed());
 	}
 	
-	public abstract void parle();
+	public abstract String parle();
 }
