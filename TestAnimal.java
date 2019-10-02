@@ -12,10 +12,9 @@ public class TestAnimal {
 		Animal D = new Dog("Dogsh**t",7,6,30,2);
 		
 		System.out.println( "Le nombre des animaux est : "+Animal.nbrAnimal );
-		
+		System.out.println("\n");	
 		System.out.println(C);
 		System.out.println("\n");
 		System.out.println(D);
 	}
-
 }
